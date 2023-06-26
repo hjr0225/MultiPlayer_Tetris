@@ -3,7 +3,7 @@ package game;
 public class FallingThread extends Thread {
 	private GameAreaPanel area;
 	private GameFrame frame;
-	int score =0;
+	private int score =0;
 	private int level =0;
 	private int time =1000;
 	private boolean computer=false;
