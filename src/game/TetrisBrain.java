@@ -83,10 +83,8 @@ public class TetrisBrain{
 	    	 try {
 	    		 if(shape[pos][i][j]==1&&board[y+i+1][j+x] == null){
 	    			 count++;
-	    			 }
-	    	 }catch(IndexOutOfBoundsException e) {
-	    		 
-	    	 }
+	    		 }
+	    	 }catch(IndexOutOfBoundsException e) {	  }
 	    		 }
 	     }
 	     return count*(-20);
