@@ -70,11 +70,11 @@ public class GameFrame extends JFrame {
 				menu.setVisible(true);
 				menu.resetFrame();
 				String name="";
-				int score1 = game1.score;
+				int score1 = game1.getScore();
 				int score2 = 0;
 				
 				if(computer) {
-					score2=game2.score;
+					score2=game2.getScore();
 					name = "computer score: ";
 				}
 				else if(player) {
@@ -298,7 +298,7 @@ public class GameFrame extends JFrame {
 		
 		Socket socket = null;
 		try {
-			socket = new Socket("your-ip", 7777);
+			socket = new Socket("222.98.88.210", 7777);
 			socket.setTcpNoDelay(true);
 			
 		} catch (IOException e) {

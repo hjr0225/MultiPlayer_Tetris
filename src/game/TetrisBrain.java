@@ -7,11 +7,9 @@ import blocks.Block;
 public class TetrisBrain{
 	
 	private GameAreaPanel game;
-	private FallingThread tr;
 	
-	public TetrisBrain(GameAreaPanel game, FallingThread tr) {
+	public TetrisBrain(GameAreaPanel game) {
 		this.game = game;
-		this.tr = tr;
 	}
 
 
@@ -46,7 +44,7 @@ public class TetrisBrain{
 	
 	private void drawAnswer(Block block, int pos, int x) {
 		while(pos>0) {
-			try {Thread.sleep(200);} catch (InterruptedException e) {}
+			try {Thread.sleep(100);} catch (InterruptedException e) {}
 			block.changePos();
 			game.repaint();
 			pos--;
@@ -54,7 +52,7 @@ public class TetrisBrain{
 		
 		int positionX = x-block.getX();
 		while(positionX!=0) {
-			try {Thread.sleep(200);} catch (InterruptedException e) {}
+			try {Thread.sleep(100);} catch (InterruptedException e) {}
 			if(positionX<0) {
 				block.moveLeft();
 			}
@@ -67,7 +65,7 @@ public class TetrisBrain{
 		
 		try {Thread.sleep(100);} catch (InterruptedException e) {}
 		
-		game.fall(tr);
+		game.fall();
 	}
 	
 	 	  	

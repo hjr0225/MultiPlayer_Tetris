@@ -3,7 +3,7 @@ package game;
 public class FallingThread extends Thread {
 	private GameAreaPanel area;
 	private GameFrame frame;
-	int score =0;
+	private int score =0;
 	private int level =0;
 	private int time =1000;
 	private boolean computer=false;
@@ -11,7 +11,7 @@ public class FallingThread extends Thread {
 
 	public FallingThread(GameAreaPanel area, GameFrame main, boolean computer) {
 		this(area, main);
-		brain = new TetrisBrain(area, this);
+		brain = new TetrisBrain(area);
 		this.computer = computer;
 	}
 	
@@ -31,6 +31,10 @@ public class FallingThread extends Thread {
 			}
 		}
 		
+	}
+	
+	public int getScore() {
+		return score;
 	}
 
 	@Override

@@ -353,6 +353,22 @@ public class GameAreaPanel extends JPanel {
 
 	}
 	
+	public void fall() {
+		synchronized(block) {
+		while(checkBelow()) {
+			block.moveDown();
+		}		
+		if(multiplay) {
+			int x = block.getX();
+			int y = block.getY();
+			executor.submit(()->sender.sendBlock(x,y));
+		}
+		repaint();
+		}
+		
+
+	}
+	
 	public void holdBlock(FallingThread tr) {
 		if(!block.getHold()) {
 			if(multiplay) {
