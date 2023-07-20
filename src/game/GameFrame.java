@@ -298,7 +298,7 @@ public class GameFrame extends JFrame {
 		
 		Socket socket = null;
 		try {
-			socket = new Socket("222.98.88.210", 7777);
+			socket = new Socket("Your-Ip", 7777);
 			socket.setTcpNoDelay(true);
 			
 		} catch (IOException e) {
