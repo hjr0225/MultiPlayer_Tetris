@@ -5,7 +5,7 @@
 
 ### Main Menu
   <p float="left">
-  <img src="https://github.com/hjr0225/MultiPlayer_Tetris/assets/127460420/011fc8f2-54bd-47fb-9e61-4f6378726f7c" width="200">
+  <img src="https://github.com/hjr0225/MultiPlayer_Tetris/assets/127460420/011fc8f2-54bd-47fb-9e61-4f6378726f7c" width="300">
 </p>
 
   ### SinglePlay
