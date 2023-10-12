@@ -10,17 +10,16 @@
 
   ### SinglePlay
   <p float="left">
-  <img src="https://github.com/hjr0225/MultiPlayer_Tetris/assets/127460420/ba38a011-0522-40aa-b157-213a5a79d102" width="200">
+  <img src="https://github.com/hjr0225/MultiPlayer_Tetris/assets/127460420/ba38a011-0522-40aa-b157-213a5a79d102" width="300">
   </p>
 
   ### MultiPlay
   <p float="left">
-  <img src="https://github.com/hjr0225/MultiPlayer_Tetris/assets/127460420/6939de48-ef5e-45a7-a8e7-ff32a1e4e658" width="200">
-  <img src="https://github.com/hjr0225/MultiPlayer_Tetris/assets/127460420/c75e9854-21d5-49e7-bd26-4a0459a90ec1" width="200">
+  <img src="https://github.com/hjr0225/MultiPlayer_Tetris/assets/127460420/c75e9854-21d5-49e7-bd26-4a0459a90ec1" width="600">
   </p>
 
   ### VS Computer
   <p float="left">
-  <img src="https://github.com/hjr0225/MultiPlayer_Tetris/assets/127460420/3dc4b1b3-7929-4e30-b876-e39185050e01" width="200">
+  <img src="https://github.com/hjr0225/MultiPlayer_Tetris/assets/127460420/3dc4b1b3-7929-4e30-b876-e39185050e01" width="600">
   </p>
 
